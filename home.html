@@ -1,0 +1,75 @@
+<!doctype html>
+<html data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payoo | Login</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+
+    <!-- Tailwind CSS and Daisy UI -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons - Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <style>
+      * {
+        font-family: "Outfit", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-base-200 min-h-screen max-w-md mx-auto">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-4 border-b-2 border-gray-200 bg-base-200 shadow sticky top-0 z-10">
+    <!-- Header Left -->
+      <div class="flex gap-2">
+        <!-- Logo -->
+        <img src="./assets/logo.png" class="w-[60px]" alt="Payoo Logo" />
+
+        <!-- Balance -->
+        <div>
+            <h3 class="font-extrabold text-lg text-neutral">$45000</h2>
+            <p class="text-sm text-neutral/50">Available Balance</p>
+        </div>
+      </div>
+
+      <!-- Header Right -->
+      <button class="btn btn-outline border-gray-500 text-gray-500"><i class="fa-solid fa-arrow-right-from-bracket scale-x-[-1]"></i>Logout</button>
+    </header>
+
+    <!-- Service Buttons -->
+    <main class="w-11/12 mx-auto mt-10">
+        <!-- Greetings -->
+        <div class="space-y-3">
+            <h1 class="font-bold text-2xl">Welcome to Pay<span class="text-primary">oo</span></h1>
+            <p class="text-neutral/50">Enjoy easy and convenient financial services with us. Cashout charge is low and </p>
+        </div>
+
+        <!-- Services -->
+        <div class="grid grid-cols-3 gap-4">
+            <button></button>
+        </div>
+    </main>
+  </body>
+</html>
