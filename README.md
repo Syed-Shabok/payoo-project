@@ -1,6 +1,6 @@
-# 💳 Payoo – Digital Wallet Simulation
+# Payoo – Digital Wallet Simulation
 
-## 🚀 Live Demo
+## Live Demo
 
 <p align="left">
   <a href="https://syed-shabok.github.io/payoo-project/" target="_blank">
@@ -10,7 +10,7 @@
 
 ---
 
-## 🔐 Demo Login Credentials
+## Demo Login Credentials
 
 Use the following credentials to log in:
 
