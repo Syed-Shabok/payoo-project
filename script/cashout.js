@@ -11,8 +11,9 @@ document.getElementById("cashout-btn").addEventListener("click", function () {
   let pinEntered = getValueFromInputField("cashout-pin");
 
   if (pinEntered === "1234") {
-    alert(`Cashout of ${amount} taka successful at ${new Date()};`);
+    alert(`Cashout of $${amount} successful at ${new Date()};`);
     setNewBalance(newBalance);
+    addTransaction("Cashout", 2, amount);
   } else {
     alert("Invalid pin");
   }

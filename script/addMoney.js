@@ -25,6 +25,7 @@ document.getElementById("add-money-btn").addEventListener("click", function () {
   if (pinEntered === "1234") {
     alert(`Money Added Successfully from ${bankName} at ${new Date()}`);
     setNewBalance(newBalance);
+    addTransaction("Add Money", 1, amount);
   } else {
     alert("Invalid pin");
     return;

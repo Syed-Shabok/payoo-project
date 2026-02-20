@@ -91,22 +91,22 @@
               Cashout
             </button>
 
-            <button class="btn btn-outline flex flex-col  border-gray-300 py-10 text-neutral/60 rounded-lg px-3">
+            <button onclick="showOnly('transfer-money')" class="btn btn-outline flex flex-col  border-gray-300 py-10 text-neutral/60 rounded-lg px-3">
               <img src="./assets/opt-3.png" class="w-fit" alt="Add Money Icon">
               Transfer Money
             </button>
 
-            <button class="btn btn-outline flex flex-col  border-gray-300 py-10 text-neutral/60 rounded-lg">
+            <button onclick="showOnly('get-bonus')" class="btn btn-outline flex flex-col  border-gray-300 py-10 text-neutral/60 rounded-lg">
               <img src="./assets/opt-4.png" class="w-fit" alt="Add Money Icon">
               Get Bonus
             </button>
 
-            <button class="btn btn-outline flex flex-col  border-gray-300 py-10 text-neutral/60 rounded-lg">
+            <button onclick="showOnly('pay-bill')" class="btn btn-outline flex flex-col  border-gray-300 py-10 text-neutral/60 rounded-lg">
               <img src="./assets/opt-5.png" class="w-fit" alt="Add Money Icon">
               Pay Bill
             </button>
 
-            <button class="btn btn-outline flex flex-col  border-gray-300 py-10 text-neutral/60 rounded-lg">
+            <button onclick="showOnly('transactions')" class="btn btn-outline flex flex-col  border-gray-300 py-10 text-neutral/60 rounded-lg">
               <img src="./assets/opt-6.png" class="w-fit" alt="Add Money Icon">
               Transactions
             </button>
@@ -114,7 +114,7 @@
     </main>
 
     <!-- Add Money Service Section -->
-    <section id="add-money" class="w-11/12 mx-auto pb-5">
+    <section id="add-money" class="w-11/12 mx-auto pb-5 hidden">
       <h2 class="font-semibold text-lg py-4">Add Money</h2>
       <div
         class="card mx-auto bg-base-100 w-full shrink-0 shadow rounded-xl"
@@ -270,10 +270,46 @@
       </div>
     </section>
 
-    
+    <!-- Transfer Money Section -->
+    <section id="transfer-money" class="w-11/12 mx-auto pb-5 hidden">
+      <h2 class="font-semibold text-lg py-4">Transfer Money</h2>
+      <br>
+      <p class="text-center text-neutral/50">Coming Soon...</p>
+    </section>
+
+    <!-- Get Bonus Section -->
+    <section id="get-bonus" class="w-11/12 mx-auto pb-5 hidden">
+      <h2 class="font-semibold text-lg py-4">Get Bonus</h2>
+      <br>
+      <p class="text-center text-neutral/50">Coming Soon...</p>
+    </section>
+
+    <!-- Pay Bill Section -->
+    <section id="pay-bill" class="w-11/12 mx-auto pb-5 hidden">
+      <h2 class="font-semibold text-lg py-4">Pay Bill</h2>
+      <br>
+      <p class="text-center text-neutral/50">Coming Soon...</p>
+    </section>
+
+    <!-- Transactions Section -->
+    <section id="transactions" class="w-11/12 mx-auto pb-5 mt-8 space-y-3 hidden">
+      <!-- <div id="transaction-card" class="bg-base-100 px-4 py-3 rounded-md flex items-center justify-start gap-3">
+        <div class="bg-base-300 p-3 rounded-full">
+          <img src="./assets/opt-1.png" alt="">
+        </div>
+        
+        <div>
+          <h3 class="font-bold">Add Money</h3>
+          <p class="text-sm text-neutral/60">$1000 on 10/02/2026</p>
+        </div>
+      </div> -->
+    </section>
+
+    <!-- Scripts -->
     <script src="./script/machine.js"></script>
     <script src="./script/addMoney.js"></script>
     <script src="./script/cashout.js"></script>
+    <script src="./script/transactions.js"></script>
   </body>
 </html>
 
