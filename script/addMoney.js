@@ -1,5 +1,6 @@
 console.log("addMoney.js is connected...");
 
+// Handles Add Money Service.
 document.getElementById("add-money-btn").addEventListener("click", function () {
   let bankName = getValueFromInputField("add-money-bank");
 
